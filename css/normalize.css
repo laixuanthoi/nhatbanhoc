@@ -36,7 +36,7 @@ html,body {
 	position:relative;
 }
 html {
-	 font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -45,6 +45,10 @@ html {
 }
 img{
 	max-width:100%;
+}
+.slider-title {
+	font-family: 'Source Sans Pro' !important;
+	text-transform: uppercase;
 }
 article,
 aside,
@@ -538,7 +542,7 @@ big {
 	margin-top: -1px;
 }
 .section-title h2 {
-	font-size: 34px;
+	/* font-size: 34px; */
 	text-transform: capitalize;
 	position: relative;
 	margin-bottom: 10px;
